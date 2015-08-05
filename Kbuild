@@ -8,6 +8,6 @@
 apps-$(CONFIG_APP_ASSERT) += assert
 
 # LIbraries needed
-assert-y = libsel4 libsel4putchar libsel4printf libsel4assert libsel4startstop
+assert-y = libsel4 libsel4string libsel4putchar libsel4printf libsel4assert libsel4startstop
 
 assert: kernel_elf $(assert-y)
